@@ -35,139 +35,6 @@ a:hover, a:focus{
     width: 100%;
 }
 
-.header_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header{
-    line-height: 1.17;
-    border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 1px 6px rgba(46, 47, 66, 0.08);
-}
-
-.logo:hover{
-    color: #4D5AE5;
-}
-
-.logo-text{
-    color: #2E2F42;
-}
-
-.hero{
-    background-color: #2E2F42;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-    ), url(../images/people-office.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 1440px;
-    padding: 188px 0;
-    margin: 0 auto;
-}
-
-.hero_container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.hero-title{
-    max-width: 496px;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ffff;
-    margin-bottom: 48px;
-}
-
-.hero-button{
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    border-radius: 4px;
-    background-color: #4D5AE5;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #FFFFFF;
-    cursor: pointer;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero-button:hover, .hero-button:focus{
-    background-color: #404BBF;
-}
-
-.qualities-section{
-    padding: 120px 0;
-}
-
-.qualities_container{
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
-
-.qualities-list{
-    display: flex;
-    gap: 24px;
-}
-
-.qualities-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #8e8f99;
-    border-radius: 4px;
-    width: 264px;
-    height: 112px;
-    background-color: #f4f4fd;
-    margin-bottom: 8px;
-}
-
-.icon {
-
-}
-
-.qualities-item{
-    width: calc((100% - 72px) / 4 );
-}
-
-.qualities-title{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-}
-
-.qualities-description{
-    line-height: 1.5;
-}
-
 .team-section {
     padding: 120px 0;
     background-color: #F4F4FD;
@@ -419,7 +286,7 @@ a:hover, a:focus{
 
 .form {
     display: flex;
-    gap: 24px;
+    gap: 24px;  
 }
 
 .form-subtitle {
